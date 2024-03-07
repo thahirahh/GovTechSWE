@@ -17,7 +17,7 @@ public class BalanceExpense{
 
         for (Map.Entry<String,Double> entry : expenses.entrySet()){                    // calculate balance owed by each person
             String person = entry.getKey();                                            // input name
-            double amontPaid = entry.getValue();                                       // input amt paid by person
+            double amountPaid = entry.getValue();                                       // input amt paid by person
             double balance = amountPaid - averageExpense;                              // calculate balance by minus off average expense
             balances.put(person,balance);                                              // store balance in balance map
         }

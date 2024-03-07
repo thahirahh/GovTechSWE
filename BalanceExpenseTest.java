@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BalanceExpenseTest{
 
     @Test
-    public void 1personPay2ppl2dp(){
+    public void personPay2ppl2dp(){
         Map<String, Double> expenses = new HashMap<>();
         expenses.put("Ali", 40.105);
         expenses.put("Bob", 40.105);
