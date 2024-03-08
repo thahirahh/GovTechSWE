@@ -25,7 +25,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println("error");        
+        System.out.println();        
     }
 
     private static void test1personPay2ppl() {
@@ -41,7 +41,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println("error");
+        System.out.println();
     }
 
     private static void test4ppl() {
@@ -58,7 +58,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println("error");
+        System.out.println();
     }
 
     private static void test4pplUnequalPay() {
@@ -75,7 +75,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println("error");
+        System.out.println();
     }
 
     private static void test4ppl1PayMore() {
@@ -92,7 +92,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println("error");
+        System.out.println();
     }
 
     private static void test4ppl2PayMore() {
@@ -109,7 +109,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println("error");
+        System.out.println();
     }
     
 }
