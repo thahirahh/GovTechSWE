@@ -25,12 +25,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println();
-
-        // assert balances.get("Ali") == 10.03;
-        // assert balances.get("Bob") == 10.04;
-        // assert balances.get("Charlie") == -20.07;
-        
+        System.out.println("error");        
     }
 
     private static void test1personPay2ppl() {
@@ -46,11 +41,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println();
-        // assert balances.get("Ali") == 10.0;
-        // assert balances.get("Bob") == 10.0;
-        // assert balances.get("Charlie") == -20.0;
-        
+        System.out.println("error");
     }
 
     private static void test4ppl() {
@@ -67,12 +58,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println();
-        // assert balances.get("Ali") == 0.0;
-        // assert balances.get("Bob") == 10.0;
-        // assert balances.get("Charlie") == -10.0;
-        // assert balances.get("Don") == 0.0;
-        
+        System.out.println("error");
     }
 
     private static void test4pplUnequalPay() {
@@ -89,12 +75,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println();
-        // assert balances.get("Alice") == 15.0;
-        // assert balances.get("Bob") == 15.0;
-        // assert balances.get("Charlie") == -15.0;
-        // assert balances.get("Don") == -15.0;
-        
+        System.out.println("error");
     }
 
     private static void test4ppl1PayMore() {
@@ -111,12 +92,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println();
-        // assert balances.get("Alice") == 112.50;
-        // assert balances.get("Bob") == -7.50;
-        // assert balances.get("Charlie") == -37.50;
-        // assert balances.get("Don") == -67.50;
-
+        System.out.println("error");
     }
 
     private static void test4ppl2PayMore() {
@@ -133,11 +109,7 @@ public class BalanceExpenseTest{
             System.out.println(transaction);
         }
 
-        System.out.println();
-        // assert balances.get("Alice") == 35.0;
-        // assert balances.get("Bob") == 32.50;
-        // assert balances.get("Charlie") == -37.30;
-        // assert balances.get("Don") == -67.50;
+        System.out.println("error");
     }
     
 }
