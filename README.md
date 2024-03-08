@@ -13,9 +13,9 @@ This Java program calculates the balance owed by each person in a group after ex
 5. Compile the files using the following commands:
    javac BalanceExpense.java BalanceExpenseTest.java BalanceExpenseInputTest.java
 6. There are two scenarios:
-   a) To run predefined tests with hardcoded expenses, execute:
+- To run predefined tests with hardcoded expenses, execute:
      java BalanceExpenseTest
-   b) To input expenses interactively, execute:
+- To input expenses interactively, execute:
      java BalanceExpenseInputTest
 __________________________________________________________________________________________________
 
