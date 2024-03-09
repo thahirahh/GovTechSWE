@@ -4,6 +4,7 @@ This Java program calculates the balance owed by each person in a group after ex
 ## How to Run
 ### Prerequisites
 - Java Development Kit(JDK) installed on your machine
+- Java version "21.0.2"
 
 ### Steps
 1. Clone or download the repository
