@@ -1,4 +1,4 @@
-![GovTechSWEChallenge2 drawio (2)](https://github.com/thahirahh/GovTechSWE/assets/92709962/d74e2871-3aa0-42d6-a5e2-b0a64a8cd077)# Balance Expense Calculator
+# Balance Expense Calculator
 This Java program calculates the balance owed by each person in a group after expenses have been shared. It then calculates the transactions needed to settle these balances.
 
 ## How to Run
